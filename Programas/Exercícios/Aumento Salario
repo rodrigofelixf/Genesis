@@ -1,0 +1,5 @@
+#Exercício Python 13: Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário, com 15% de aumento
+
+salario = float(input('Digite o valor do seu salario R$: '))
+aumento15 = (15 / 100) * salario
+print(f'Você que ganhava R$ {salario} teve um aumento de 15% e agora vai ganhar R$ {salario + aumento15}')
