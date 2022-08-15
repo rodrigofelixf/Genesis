@@ -1,0 +1,13 @@
+from time import sleep
+print('~~==~~'*10)
+print('Calculadora de valor da rota')
+print('~~==~~'*10)
+distanciaViagem = float(input('Qual a distância da viagem em KM? '))
+print('Um momento. Calculando o valor...')
+sleep(2)
+valor1 = distanciaViagem
+if distanciaViagem <= 200:
+    print(f'Sua distância foi de {distanciaViagem} KM. Você vai pagar R$ {distanciaViagem*0.50:.2f}')
+else:
+    print(f'Sua distância foi de {distanciaViagem} KM. Você vai pagar R$  {distanciaViagem*0.45:.2f}')
+#simplificado ( preço = distancia*0.50 if distancia <= 200 else distancia*0.45#
