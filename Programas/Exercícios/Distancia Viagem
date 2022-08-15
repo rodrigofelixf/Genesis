@@ -1,3 +1,4 @@
+#calculando o prelo da passagem!
 from time import sleep
 print('~~==~~'*10)
 print('Calculadora de valor da rota')
