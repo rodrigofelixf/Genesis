@@ -1,0 +1,8 @@
+#Exercício Python 48: Faça um programa que calcule a soma entre todos os números que são múltiplos de três e que se encontram no intervalo de 1 até 500.
+soma = 0
+cont = 0
+for n in range(1,501, 2): # o '2' vai fazer pular de 2 em 2 para pergar só os numeros impares
+    if n % 3 == 0: # esse calculo faz saber se os numeros são divisiveis por 3
+        soma += n
+        cont += 1
+print(f'A soma de todos os {cont} valores solicitas é {soma}')
