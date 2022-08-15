@@ -33,6 +33,7 @@ elif 30 <= imc < 40:
 else:
     print(f'''PERIGO! {nome}, seu IMC é de {imc:.2f} kg/m² e está em um grau de OBESIDADE MÓRBIDA!!
      PROCURE IMEDIATAMENTE um NUTRICIONISTA!! ''')
+    print('Entre em contato comigo!')
 
 
 
