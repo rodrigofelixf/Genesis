@@ -1,3 +1,4 @@
+from ast import If
 from time import sleep
 print('|||||'*10)
 print('  CALCULE SEU IMC - Jéssica Araújo NUTRICIONISTA')
