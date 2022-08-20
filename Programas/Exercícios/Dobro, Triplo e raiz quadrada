@@ -1,0 +1,7 @@
+#Exercício Python 006: Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.
+número = int(input('Digite seu número: '))
+dobro = número * 2
+triplo = número * 3
+raíz2 = número ** (1/2) #se for raíz cúbica é só trocar o 2 pelo 3.
+print(f'''O dobro do número {número} é {dobro}, o triplo {triplo}
+e a raíz quadrada é igual a {raíz2:.2f}''')
