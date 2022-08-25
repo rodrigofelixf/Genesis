@@ -32,3 +32,4 @@ while True: #enqunto for verdadeiro
             print('Você perdeu!!') #senão ele perdeu e encerra o jogo no BREAK
             break
     print('Vamos jogar novamente...')
+print(f'GAMER OVER! Você venceu {vitoria} vezes')
