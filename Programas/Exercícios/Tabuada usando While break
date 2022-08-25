@@ -1,0 +1,9 @@
+numero = 0
+while True: #enquanto for verdadeiro
+    numero = int(input('Quer ver a tabuada de qual valor? '))
+    if numero < 0: #se o numero for menor que zero (no caso negativo)
+        break #ele vai parar
+    for n in range(1, 11): #laço para fazer a tabuada de 1 a 10
+        print(f'{numero} x {n} = {numero * n}')
+print('Acabou')
+
